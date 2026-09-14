@@ -1,9 +1,9 @@
 class Docdot < Formula
   desc "Run and compare PDF parsers locally"
   homepage "https://docdot.ai/"
-  url "https://dl.docdot.ai/releases/docdot/0.1.4/docdot-darwin-arm64", using: :nounzip
-  version "0.1.4"
-  sha256 "07a6b3523bec9f759e28dba8e9129ca46765f9ded8c2ddfdd0bde3dd3dc053ea"
+  url "https://dl.docdot.ai/releases/docdot/0.1.3/docdot-darwin-arm64", using: :nounzip
+  version "0.1.3"
+  sha256 "7443ceedc0c97177c43f70de1e16ede52f075462dcaf83be5f37c8e43f8525a8"
 
   livecheck do
     url "https://dl.docdot.ai/releases/docdot/latest/version.txt"
